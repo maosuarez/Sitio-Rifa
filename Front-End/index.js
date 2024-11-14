@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/data";
+const url = "rifa-vale-back-end.vercel.app/data";
 let listaNumeros = [];
 let listaElegidos = [];
 let actualPlayer = {
