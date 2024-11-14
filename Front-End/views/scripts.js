@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/data"; // URL de la API que devuelve la lista de clientes
+const url = "rifa-vale-back-end.vercel.app/data"; // URL de la API que devuelve la lista de clientes
 
 // Función para obtener la lista de clientes desde el servidor
 const fetchClients = async () => {
