@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rifa Vale</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onload="createPage()">
+    <header>
+      <div class="container">
+        <h1>Rifa Vale</h1>
+        <nav>
+          <button
+            onclick="window.location.href='views/clientes.html'"
+            class="button"
+          >
+            Menu
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="raffle">
+        <h2>¡¡Elige tus numeros de la suerte!!</h2>
+        <div class="grid-container">
+          <!-- Generate 100 grid items -->
+        </div>
+
+        <section class="section-form">
+          <div>
+            <label for="name">Your Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter your name"
+            />
+          </div>
+          <div>
+            <label for="tel">Telefono:</label>
+            <input
+              type="tel"
+              id="tel"
+              name="tel"
+              required
+              placeholder="Enter your telephone number"
+            />
+          </div>
+          <button onclick="sendInfo()">Enviar</button>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Rifa Vale. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
